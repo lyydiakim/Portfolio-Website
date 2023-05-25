@@ -1,0 +1,151 @@
+.text-animation{animation: 2s ease-out 0s 1 loading-fade;}
+@keyframes loading-fade{
+    0% {
+        width:110vw;
+        height:100vh;
+      
+    }
+
+    100% {
+        width:0px; 
+        height: 0px;
+    } 
+}
+* {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.container {
+
+    width:100vw;
+    margin-top:1rem;
+    display:flex;
+    flex-direction:row;
+
+}
+
+.container img {
+    padding-bottom:1rem;
+}
+
+.archives video{
+    position: absolute;
+    right:1rem;
+}
+
+.membership video{
+    position: absolute;
+    right:1rem;
+}
+
+.visit video{
+    position: absolute;
+    right:1rem;
+}
+
+
+
+#main-title {
+    z-index: 1;
+    color: #FF4337;
+    margin-bottom:0;
+    position: fixed;
+    bottom:0;
+    right:30px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.left-content {
+    width:700px;
+    margin-left: 1rem;
+    padding-top:4rem;
+    margin-bottom:2rem;
+}
+
+.left-content > * { /* addresses all children of class */
+    padding-bottom:1rem;
+}
+
+
+#color {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#video-content {
+    padding-bottom: 1rem;
+}
+
+
+.text-content {
+    right:3rem;
+    position:absolute;
+    float:right;
+    left:52vw;
+    padding-right:4rem;
+    width:600px;
+    padding-bottom: 5rem;
+
+}
+
+#main-description{
+
+    padding-top:2rem;
+}
+
+.text-header{
+    font-size: 1.1rem;
+    padding-top:3rem;
+}
+
+
+
+#date {
+    position: absolute;
+    padding-top:3rem;
+  padding-right:4rem;
+    right:0;
+    font-size:1.1rem;
+}
+
+
+em {
+    padding-top:2rem;
+    font-size: 0.5rem;
+}
+
+#here {
+    color:black;
+    cursor: url('../assets/cursor/blue-cursor.png'),auto;
+}
+
+
+footer { /* note that it is in left content */
+    position: absolute;
+    padding:1rem;
+}
+.social{
+    padding-bottom:2rem;
+    display: inline;
+}
+.social a{
+    cursor: url('../assets/cursor/blue-cursor.png'),auto;
+    color: var(--main-color);
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal; 
+    padding-right:2rem;
+    text-decoration: none; 
+    list-style-type: none;  
+    font-size: var(--font-size-sm);
+}
+
+.social a:hover{
+    
+    color:rgb(106, 106, 198);
+}

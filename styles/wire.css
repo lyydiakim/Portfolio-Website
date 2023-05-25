@@ -1,0 +1,108 @@
+.loading{animation: 2s ease-out 0s 1 loading-fade;}
+@keyframes loading-fade{
+    0% {
+        width:110vw;
+        height:100vh;
+      
+    }
+
+    100% {
+        width:0px; 
+        height: 0px;
+    } 
+}
+
+.container {
+
+    width:100vw;
+    margin-top:1rem;
+    display:flex;
+    flex-direction:row;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+#main-title {
+    color:rgb(255, 166, 0);
+    margin-bottom:0;
+    position: fixed;
+
+    bottom:0;
+    right:30px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.left-content {
+    width:600px;
+    margin-left: 2.5rem;
+    padding-top:4rem;
+    margin-bottom:2rem;
+}
+
+.left-content > * { /* addresses all children of class */
+    padding-bottom:1rem;
+}
+
+
+.text-content {
+    right:3rem;
+    position:fixed;
+    float:right;
+    left:52vw;
+    padding-right:2rem;
+    width:600px;
+
+}
+
+#main-description{
+
+    padding-top:1rem;
+}
+
+.text-header{
+    font-size: 1.1rem;
+    padding-top:3rem;
+}
+
+
+
+#date {
+    position: fixed;
+    padding-top:3rem;
+  padding-right:4rem;
+    right:0;
+    font-size:1.1rem;
+}
+
+em {
+    font-size:.9rem;
+}
+
+
+
+footer {
+    position: absolute;
+    padding-left:2rem;
+}
+.social{
+    padding-bottom:2rem;
+    display: inline;
+}
+.social a{
+    color: var(--main-color);
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal; 
+    padding-right:2rem;
+    text-decoration: none; 
+    list-style-type: none;  
+    font-size: var(--font-size-sm);
+}
+
+.social a:hover{
+    color:rgb(106, 106, 198);
+}

@@ -1,0 +1,79 @@
+*{
+    cursor: url('../assets/cursor/cursor.png'),auto;
+
+}
+body {
+     /* var for padding sizes */
+    --padding-xxs: 0.2rem;
+    --padding-xs: 0.5rem;
+    --padding-sm: 1rem;
+    --padding-md: 1.5rem;
+    --padding-lg: 3rem;
+    --padding-xl: 5rem;
+
+
+    /* var for font attributes */
+    --font-size-xs: 0.8rem;
+    --font-size-sm: 1.2rem;
+    --font-size-md: 1.5rem;
+    --font-size-lg: 2.5rem;
+    --font-size-xl: 3rem;
+    --main-color: rgb(0,0,214);
+
+    /* stops horizontal scrolling */
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#logo {
+    cursor: url('../assets/cursor/blue-cursor.png'),auto;
+    position:absolute;
+    top:1rem;
+    height: auto;
+    width:6rem;
+    float:left;
+}
+
+.header {
+    width:100vw;
+    height:50px;
+ 
+    padding-top: var(--padding-sm);
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: var(--font-size-md);
+
+}
+
+.right-h { /*addressing full nav bar*/
+    position: absolute;
+    padding-right:2rem; 
+    padding-top: 3rem;
+    right:0;
+    top:0;
+    
+}
+
+.right-h > *{  /*changing nav children*/
+
+    list-style-type: none;
+    float:right;
+    padding-right:var(--padding-sm);
+    
+}
+
+li a {
+    cursor: url('../assets/cursor/cursor.png'),auto;
+    color:var(--main-color);
+    padding: 8px;
+    list-style-type: none;
+    text-decoration: none; 
+}
+
+li a:hover {
+    cursor: url('../assets/cursor/blue-cursor.png'),auto;
+    color:rgb(69, 69, 237);
+}
+
+

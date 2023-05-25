@@ -1,0 +1,38 @@
+* {
+    overflow: none;
+}
+.container {
+    padding:5rem;
+}
+p {
+    text-align: center;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal; 
+    font-size:3.5rem;
+    color: rgb(0,0,214);
+}
+
+footer {
+    position: absolute;
+    bottom:0;
+    padding-left:2rem;
+    padding-bottom:2rem;
+}
+.social{
+    display: inline;
+}
+.social a{
+    color: var(--main-color);
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal; 
+    padding-right:2rem;
+    text-decoration: none; 
+    list-style-type: none;  
+    font-size: var(--font-size-sm);
+}
+
+.social a:hover{
+    color:rgb(106, 106, 198);
+}

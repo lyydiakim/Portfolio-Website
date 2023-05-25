@@ -1,0 +1,186 @@
+* {
+    overflow: hidden;
+}
+
+.header ,.container {
+    z-index:0;
+}
+
+.loading{animation: 2s ease-out 0s 1 loading-fade;}
+@keyframes loading-fade{
+    0% {
+        width:110vw;
+        height:100vh;
+      
+    }
+
+    100% {
+        width:0px; 
+        height: 0px;
+    } 
+}
+
+.titles{
+    transition-property: width;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+
+.titles{animation: 1.5s ease-out 0s 1 FadeIn;}
+@keyframes FadeIn {
+    0% {
+        width:0; 
+    }
+    100% {
+        width:80vw;
+    }
+} 
+
+
+.container {
+    padding-top:10rem;
+    width:80vw;
+    margin-left:10rem;
+    margin-right:7rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: var(--font-size-lg);
+    display:flex;
+}
+
+
+
+.titles a{
+    cursor: url('../assets/cursor/orange-cursor.png'),auto;
+    color:rgb(60, 60, 60);
+    padding-left:1rem;
+    text-decoration: none; 
+    list-style-type: none; 
+    font-size: 3.3rem;
+
+}
+.titles a:hover{
+    color:rgb(255, 166, 0);
+
+}
+#wire, #circle, #sf, #velocity {
+    background-image: none;
+}
+
+#circle-img, #wire-img, #sf-img, #vel-img
+,#verte-img, #type-img, #camini-img , #moma-img{
+    display:none;
+    z-index: -1;
+    right: 30vw;
+    width:auto;
+}
+
+#moma:hover ~ #moma-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    top:0;
+ 
+}
+
+#circle:hover ~ #circle-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    top:0;
+}
+
+#wire:hover ~ #wire-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:absolute;
+  top:0;
+}
+
+#velocity:hover ~ #vel-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:absolute;
+  top:0;
+}
+
+#sf:hover ~ #sf-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:absolute;
+  top:0;
+}
+
+
+#verte:hover ~ #verte-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    top:0;
+ 
+}
+
+#type:hover ~ #type-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    top:0;
+ 
+}
+
+#camini:hover ~ #camini-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    top:0;
+ 
+}
+
+
+
+footer {
+    position: fixed;
+    bottom:0;
+    margin-bottom:2rem;
+    padding-left:3rem;
+}
+.social{
+    display: inline;
+}
+.social a{
+    cursor: url('../assets/cursor/blue-cursor.png'),auto;
+
+    color: var(--main-color);
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal; 
+    padding-right:2rem;
+    text-decoration: none; 
+    list-style-type: none;  
+    font-size: var(--font-size-sm);
+}
+
+.social a:hover{
+    color:rgb(106, 106, 198);
+}
+
+
+p {
+    color:white;
+    font-size:1rem;
+    text-align:center;
+  }
+  
+
+.header #logo {
+    padding-top: 0.5rem;
+}

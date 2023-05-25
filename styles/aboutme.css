@@ -1,0 +1,198 @@
+p {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal; 
+    color:rgb(53, 59, 86);
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100vw;               
+  background-color:black;
+  height: 1px;
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+}
+
+.top-container {
+    width:100vw;
+    height:100vh;
+
+}
+
+.statement {
+    float: left;
+    padding-left:11rem;
+    height:50rem;
+
+}
+
+.image-div {
+    float:right;
+    padding-top:6rem;
+    padding-right:13rem;
+}
+
+#portrait {
+    height:33rem;
+    width:auto;
+}
+
+.skills-header{
+    padding-left:10rem;
+    padding-top:2rem;
+
+}
+
+#hello{
+    padding-top: 10rem;
+    font-size: 2rem;
+    color:rgb(0,0,214);
+    margin:0;
+    font-family: termina, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#personaldescription {
+    float:left;
+    width: 30rem;
+    font-size: 1.1rem;
+    color: rgb(137, 137, 137)
+
+}
+
+#scu {
+    text-decoration: none;
+    color:rgb(0,0,214);
+}
+
+#scu:hover{
+    color:rgb(69, 69, 237);
+}
+
+#gear {
+    display:inline-flex;
+    color:rgb(0,0,214);
+    margin-bottom:0rem;
+}
+.skills-text {
+    position:relative;
+    left:4px;
+    bottom:-5px;
+    padding-right:1rem;
+    font-size: 2rem;
+    font-family: termina, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.skill-type {
+    float: left;
+    width: 50%;
+}
+
+.types {
+    height:18rem;
+    padding-left:10rem;
+    box-sizing: border-box;
+    font-size: var(--font-size-md);  
+}
+
+#front-ex, #digital-ex {
+    font-size:var(--font-size-sm);
+}
+
+#digitalart , #frontend {
+    text-decoration: underline;
+}
+
+
+.resume {
+    padding-top:2.5rem;
+    text-align:center;
+    padding-bottom: 5rem;
+    font-size: 1.4rem;
+    padding-left:2rem;
+
+}
+
+.resume-body {
+    padding-bottom: 2rem;
+}
+
+#resume-link:hover {
+    cursor: url('../assets/cursor/blue-cursor.png'),auto;
+    color:white;
+    background-color: rgb(0,0,214);
+    
+}
+
+#resume-link {
+    font-family: ff-basic-gothic-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(53, 59, 86);
+    background-color: white;
+    text-decoration: none;
+    padding:.7rem;
+    border-radius: 2%;
+    border: 2px solid rgb(0,0,214);
+}
+
+
+
+/* STYLING FOR FOOTER ONWARDS  */
+footer { 
+    /* background-color: rgb(229, 229, 229); */
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    width: 100vw;;
+    position:absolute;
+    bottom:auto;
+}
+
+footer p{
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal; 
+
+    /* font-family: arboria,sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+
+    font-size:1rem;
+    color:var(--main-color); 
+}
+
+.social {
+    display:inline-block;
+
+}
+
+#icon-footer{
+    color:var(--main-color); 
+    width: 3rem;
+}
+
+#icon-footer:hover {
+    cursor: url('../assets/cursor/blue-cursor.png'),auto;
+    color:rgb(106, 106, 198);
+} 
+  
+
+
+
+
+
+
+
+
+
+

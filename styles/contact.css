@@ -1,0 +1,130 @@
+.container {
+    color:rgb(53, 59, 86);
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.info-container {
+    font-size:1.1rem;
+    float:left;
+    padding-top: 9rem;
+    padding-left:9rem;
+    padding-bottom:5rem;
+    margin-right:3rem;
+
+}
+
+i {
+    color:rgb(0,0,214);
+}
+#envelope-icon,#location-icon {
+    display: inline-flex;
+}
+#location-icon {
+    padding-bottom:1rem;
+}
+
+.envelope-text{
+    padding-left:1rem;
+}
+
+.location-text {
+    padding-left: 1.3rem;
+}
+
+#media-header {
+    font-size:1.3rem;
+}
+
+a { /*media links*/
+    text-decoration: none; 
+    color:rgb(53, 59, 86); /*keep to change visited link from changing */
+}
+a:hover {
+    color:rgb(0,0,214);
+}
+
+.form-container1 {
+    float:right;
+    padding-top: 8rem;
+    padding-right: 11rem;
+}
+
+
+#type {  
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: ff-basic-gothic-pro, sans-serif;
+    font-size:1rem;
+}
+
+#type:focus {
+    background-color: rgb(0,0,214);
+    color:white;
+    border:2px solid rgb(0,0,214);
+  }
+
+
+#message {
+    font-size:1.3rem;
+    color:rgb(0,0,214);
+}
+
+#send {
+    outline:none;
+    font-family: ff-basic-gothic-pro, sans-serif;
+    font-size:1rem;
+    background-color: white;
+    border: 2px solid rgb(0,0,214);
+    border-radius: 5px;
+}
+
+#send:hover{
+    border:none;
+    color:white;
+    cursor: url('../assets/cursor/blue-cursor.png'),auto;
+    background-color: rgb(69, 69, 205);
+}
+
+
+/* specific styling for contacts page only */
+.nav-bar{
+    padding-right:.9rem;
+    /* accounts for not having scroll bar */
+
+}
+
+/* STYLING FOR FOOTER ONWARDS  */
+footer { 
+    /* background-color: rgb(229, 229, 229); */
+    text-align: center;
+    width: 100vw;;
+    position:fixed;
+    padding-bottom: 1rem;
+    bottom:0;
+}
+
+footer p{
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal; 
+    font-size:1rem;
+    color:var(--main-color); 
+}
+
+
+
+
+
+
+
+
+
+
+
